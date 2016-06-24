@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../image/background_winter.jpg);
+}
+
+.menu
+{
+	background-color: rgba(0,0,0,0.5);
+	width: 75%;
+	margin-right: 60px;
+	margin-top: 80px;
+	float: right;
+	height: 40px;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	font-family: 'Montserrat', sans serif;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.menu ul li
+{
+	display: inline;
+}
+.conteneur
+{	
+	margin-top: 25px;
+	margin-right: 60px;
+	float:right;
+	background-color:#938987;
+	width: 75%;
+	height:	65%;
+	
+}
+
+.liste_formation
+{
+	margin: 15px;
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	border-right: 5px solid black;
+	color:#262828;
+}
+
+.pro
+{
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	color:#262828;
+}
+
+.progress
+{
+	text-align:center;
+	margin: 20px;
+	
+}
+.progress-bar
+{
+		background-color:#3E87D6;
+		color: white;
+		font-family: 'Montserrat', sans serif;
+		
+}
+.comp_col1 p,.comp_col2 p 
+{
+	text-align: center;
+	color:#262828;
+	
+}
+
+.comp_col1,.comp_col2
+{
+	margin-top: 25px;
+	width: 45%;
+	display: inline-block;
+	margin-left: 15px;
+	
+}
+.comp_col1
+{
+	border-right: 6px solid black;
+}
+
+.liste_comp li
+{
+	list-style-type: circle;
+	margin-left: 50px;
+}
+
+.titre_competence
+{
+	text-align:center;
+}
+h1
+{
+	font-family: 'Montserrat', sans serif;
+	font-weight: 700;
+	font-size: 28pt;
+	margin: auto;
+	margin-bottom: 15px;
+	color:#3E87D6;
+
+}
+
+h2
+{
+	font-family: 'Montserrat', sans serif;
+	font-weight: 700;
+	font-size: 22pt;
+	margin: auto;
+}
+p{
+	font-family: 'Montserrat', sans serif;
+	font-weight: 700;
+	font-size: 14pt;
+	width: 60%;
+	margin: auto;
+}
+
+li
+{
+	font-family: 'Montserrat', sans serif;
+	padding: 6px;
+	
+}
+
+.accueil
+{
+	width: 100%;
+	height: 100%;
+}
+
+.formations
+{
+	width: 100%;
+	height: 100%;
+}
+
+.competence
+{
+	width: 100%;
+	height: 100%;
+}
+.divers
+{
+	width: 100%;
+	height: 100%;
+}
+.contact 
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+	box-sizing:border-box;
+}
